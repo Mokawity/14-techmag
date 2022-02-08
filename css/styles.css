@@ -10,6 +10,7 @@ html {
 body {
   max-width: 320px;
   margin: auto;
+  background-color: black;
 }
 
 img{
@@ -19,4 +20,16 @@ img{
 
 em{
   color: #2afca6;
+}
+
+div {
+background-color: #2afca6;
+margin: 19px 27px;
+padding: 34px 29px;
+}
+
+article{
+  background-color: white;
+  margin: 19px 27px;
+  padding: 34px 29px;
 }
