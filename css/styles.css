@@ -7,6 +7,12 @@ html {
   scroll-behavior: smooth;
 }
 
+header{
+  margin: 19px 27px;
+  padding: 34px 29px;
+  border: solid #ffffff;
+}
+
 body {
   max-width: 320px;
   margin: auto;
@@ -32,4 +38,12 @@ article{
   background-color: white;
   margin: 19px 27px;
   padding: 34px 29px;
+}
+
+footer{
+  margin: 19px 27px;
+  padding: 3px 10px;
+  border: solid #2afca6;
+  text-align: center;
+  color: white;
 }
