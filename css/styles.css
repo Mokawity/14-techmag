@@ -9,11 +9,10 @@ html {
 
 header{
   margin: 20px 0px;
-  padding: 0px 30px;
   border: 2px solid #ffffff;
-  text-align: left;
   color: #ffffff;
-  background-image: url('')
+  background-image: url('..img/lignes-de-code.jpg');
+  padding: 0px 30px;
 }
 
 header h1{
@@ -27,6 +26,12 @@ header h1{
 header h1 em{
   font-weight: 100px;
   color: #2afca6;
+}
+
+.sous-titre{
+  color: white;
+  margin: 20px 0px 50px;
+  line-height: 22px;
 }
 
 body {
@@ -62,7 +67,6 @@ button a {
   font-weight: 800;
   font-family: 'montserrat', sans-serif;
 }
-
 
 em{
   color: #2afca6;
@@ -100,6 +104,10 @@ article h1{
   font-family: 'montserrat', sans-serif;
   font-size: 16px;
   font-weight: 800;
+}
+
+.article-page{
+  padding-top: 30px;
 }
 
 .auteur{
