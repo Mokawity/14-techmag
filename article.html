@@ -5,11 +5,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="css/styles.css" /> 
     <title>Techmag</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+    href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,800;1,100&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
   </head>
   <body>
     <header>
       <h1>Techmag<em>2000</em></h1>
-      <p>le magazine qui explore les technologies du futur</p>
+      <p>
+        le magazine qui explore les technologies du futur
+      </p>
     </header>
     <main>
       <div class="introduction">
@@ -18,34 +25,49 @@
           Publié le 10 février 2025 par James Webb
         </p>
        </div>
-       <article>
-         <h2>Toujours plus de drône dans le ciel</h2>
-         <p>Publié le <span class="date">10 février 2025</span> par
-          <ames class="author">James Webb</span>
-        </p>
-        <img src="img/main-ecran.jpg" alt="main qui pointe un ecran">
-        <p>
+       <article class="article-page">
+      <figure>
+        <img src="img/main-ecran.jpg"
+        alt="main qui pointe un ecran">
+        <figcaption class="article-figcaption">
+          Vivre connecté,365 jours par an.
+        </figcaption>
+      </figure>
+       <h1>Toujours plus de drône dans le ciel</h1>
+        <p class="article-text">
           The battle station is heavily shielded and carries a firepower greater
           than half the star fleet. It's defenses are designed around a direct
           large-scale assault. A small one-man fighter should be able to
           penetrate the outer defense.
         </p>
-        <img src="img/equipement-photo-video.jpg" alt="equipments">
-         <h2>All your base are belonging to us!</h2>
-         <p>
+      <figure>
+        <img src="img/equipement-photo-video.jpg"
+        alt="equipments">
+        <figcaption class="article-figcaption">
+          The viedéographer 2.0 toolkit.
+        </figcaption>
+      </figure>
+         <h1>All your base are belonging to us!</h1>
+         <p class="article-text">
           All wings report in. Red Ten standing by. Red Seven standing by.
           Red Three standing by. Red Six standing by. Red Nine standing by.
           Red Two standing by. Red Eleven standing by
          </p>
-         <img src="img/cables.jpg" alt="cables">
-         <p>
+      <figure>
+         <img src="img/cables.jpg"
+         alt="cables">
+        <figcaption class="article-figcaption">
+          Welding for better repair.
+        </figcaption>
+      </figure>
+      <h1>Electronic embarqué!</h1>
+         <p class="artcile-text">
           Didn't we just leave this party? What kept you? We ran into some old
           friends. Is the ship all right?
          </p>
-         <a href="index.html"
-          class="button">
-          Retour aux articles
-        </a>
+        <button class="article-button">
+          <a href="index.html">Retour aux article</a>
+        </button>
       </article>
     </main>
     <footer>
