@@ -10,8 +10,8 @@ html {
 header{
   margin: 20px 0px;
   border: 2px solid #ffffff;
-  background-image: url('..img/lignes-de-code.jpg');
   padding: 0px 30px;
+  background-image: url("../img/lignes-de-code.jpg")
 }
 
 header h1{
@@ -53,17 +53,16 @@ button {
   margin: 0px 0px 16px;
   background-color: black;
   border-style: none;
-  height: 23px;
-  width: 90px;
+  padding: 6px 15px;
 }
 
 button a {
   color: white;
-  margin: 5px;
-  text-decoration: none;
+  padding: 6px 15px;
   font-size: 10px;
-  font-weight: 800;
+  font-weight: bold;
   font-family: 'montserrat', sans-serif;
+  text-decoration: none;
 }
 
 em{
@@ -72,13 +71,12 @@ em{
 
 div {
 background-color: #2afca6;
-margin: 19px 27px;
 padding: 34px 29px;
 }
 
 .introduction{
   background-color: #2afca6;
-  padding: 16px 30px;
+  padding: 15px 29px;
 }
 
 .introduction h2{
@@ -102,6 +100,10 @@ article h1{
   font-family: 'montserrat', sans-serif;
   font-size: 16px;
   font-weight: 800;
+}
+
+article h2{
+  font-size: 17px;
 }
 
 .article-page{
