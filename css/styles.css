@@ -11,7 +11,7 @@ header{
   margin: 20px 0px;
   border: 2px solid #ffffff;
   padding: 0px 30px;
-  background-image: url("../img/lignes-de-code.jpg")
+  background-image: url("../img/lignes-de-code.jpg");
 }
 
 header h1{
@@ -131,7 +131,7 @@ article h2{
 
 figure{
   margin: 0px 0px 32px;
-  box-shadow: 2px  2px 2px 2px gray;
+  box-shadow: lightgray 0 0 10px 1px;
 }
 
 figcaption {
