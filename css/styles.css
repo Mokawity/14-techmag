@@ -8,7 +8,7 @@ html {
 }
 
 header{
-  margin: 20px 0px;
+  margin: 20px 2px;
   border: 2px solid #ffffff;
   padding: 0px 30px;
   background-image: url("../img/lignes-de-code.jpg");
@@ -35,7 +35,7 @@ header h1 em{
 
 body {
   max-width: 320px;
-  margin: auto;
+  margin: 20px 10px;
   background-color: black;
   font-family: 'Open Sans', sans-serif;
   font-weight: 400px;
