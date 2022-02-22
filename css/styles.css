@@ -27,7 +27,7 @@ header h1 em{
   color: #2afca6;
 }
 
-.sous-titre{
+.sub-titles{
   color: white;
   margin: 20px 0px 50px;
   line-height: 22px;
@@ -35,7 +35,7 @@ header h1 em{
 
 body {
   max-width: 320px;
-  margin: 20px 10px;
+  margin: auto;
   background-color: black;
   font-family: 'Open Sans', sans-serif;
   font-weight: 400px;
@@ -110,13 +110,13 @@ article h2{
   padding-top: 30px;
 }
 
-.article-meta{
+.post-info{
   font-size: 12px;
   margin-top: 20px;
   color: #a0a0a0;
 }
 
-.auteur{
+.author{
   color: #2afca6;
 }
 
@@ -124,7 +124,7 @@ article h2{
   color: black;
 }
 
-.article-text{
+p{
   font-size: 16px;
  line-height: 22px;
 }
