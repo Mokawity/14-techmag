@@ -8,7 +8,7 @@ html {
 }
 
 header{
-  margin: 20px 2px;
+  margin: 21px 2px;
   border: 2px solid #ffffff;
   padding: 0px 30px;
   background-image: url("../img/lignes-de-code.jpg");
@@ -106,7 +106,7 @@ article h2{
   font-size: 17px;
 }
 
-.article-page{
+.page{
   padding-top: 30px;
 }
 
@@ -141,16 +141,16 @@ figcaption {
 }
 
 footer{
-  margin-top: 20px;
   height: 45px;
   border: 2px solid #2afca6;
   text-align: center;
   color: white;
+  margin: 22px 2px;
+  padding: 5px;
 }
 
 footer p{
   color: white;
   text-align: center;
   font-size: 10px;
-  margin-top: 15px;
 }
